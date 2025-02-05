@@ -1,2 +1,23 @@
-# practicode5_CV_Site
-A web app for developers to showcase their portfolio by integrating with GitHub, displaying repository data and enabling public repo search. Built with .NET Core Web API.
+# CV Site - תיק עבודות משולב עם GitHub
+
+## אודות הפרויקט
+האפליקציה מיועדת למפתחים המעוניינים להציג את תיק העבודות שלהם בצורה דינמית, תוך שילוב מידע מחשבון ה-GitHub שלהם.
+
+## תכונות עיקריות
+- **שילוב עם GitHub API** - שליפת מידע על ריפוזיטוריז ופעילות המשתמש.
+- **הצגת מידע על פרויקטים**:
+  - שפות הקוד העיקריות.
+  - כמות הכוכבים וה-pull requests.
+  - תאריך ה-commit האחרון.
+  - קישור לריפוזיטורי ולדף הפרויקט (אם קיים).
+- **חיפוש ריפוזיטוריז ציבוריים**:
+  - חיפוש לפי שם פרויקט, שפת תכנות או שם משתמש.
+- **טכנולוגיות**:
+  - צד שרת: **.NET Core Web API**
+  - צד לקוח: **React (במידה ונדרש בהמשך)**
+
+## התקנה והפעלה
+1. **שכפול הריפו**:
+   ```sh
+   git clone https://github.com/your-username/cv-site.git
+   cd cv-site
