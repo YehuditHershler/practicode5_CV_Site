@@ -43,7 +43,6 @@ namespace cv_site.Controllers
                 .SetSlidingExpiration(TimeSpan.FromSeconds(10));
 
             _cache.Set(cacheKey, result, cacheOptions);
-
             return Ok(result);
         }
 
@@ -61,3 +60,4 @@ namespace cv_site.Controllers
         }
     }
 }
+
